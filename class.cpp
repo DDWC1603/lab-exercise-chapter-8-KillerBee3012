@@ -6,9 +6,9 @@ class Log
 {
 	
 	public:
-		const int LogLevelError =0;
-	    const int LogLevelWarning =1;
-	    const int LogLevelInfo =2;
+	
+	//use array or enum
+	enum Level {LevelError=0,LevelWarning,LevelInfo}
 	    
 	private:
 		
@@ -56,22 +56,3 @@ int main()
 	std::cin.get();
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
